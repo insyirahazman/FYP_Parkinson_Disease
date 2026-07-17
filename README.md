@@ -27,7 +27,7 @@ This project presents a video-based deep learning framework for Parkinson's Dise
 
 The complete source code is available at:
 
-**[GitHub — (https://github.com/insyirahazman/FYP_Parkinson_Disease)]**
+**[GitHub — https://github.com/insyirahazman/FYP_Parkinson_Disease]**
 
 ---
 
