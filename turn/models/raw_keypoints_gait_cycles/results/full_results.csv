@@ -1,0 +1,25 @@
+model_name,cycle_size,model_cycle,train_samples,val_samples,train_time_sec,accuracy,precision,recall,f1_score,roc_auc,rank_by_acc
+lstm_baseline,1,1-cycle lstm_baseline,168,36,20.83,0.5556,0.5385,0.7778,0.6364,0.5556,4.0
+lstm_bidirectional,1,1-cycle lstm_bidirectional,168,36,50.8,0.9722,1.0,0.9444,0.9714,0.9722,1.0
+lstm_simpleatt,1,1-cycle lstm_simpleatt,168,36,54.1,0.9444,1.0,0.8889,0.9412,0.9444,3.0
+lstm_multiheadatt,1,1-cycle lstm_multiheadatt,168,36,57.62,0.9722,1.0,0.9444,0.9714,0.9722,1.0
+lstm_baseline,2,2-cycle lstm_baseline,84,18,38.9,0.7222,0.7,0.7778,0.7368,0.7222,4.0
+lstm_bidirectional,2,2-cycle lstm_bidirectional,84,18,60.68,1.0,1.0,1.0,1.0,1.0,1.0
+lstm_simpleatt,2,2-cycle lstm_simpleatt,84,18,58.5,0.9444,1.0,0.8889,0.9412,0.9444,2.0
+lstm_multiheadatt,2,2-cycle lstm_multiheadatt,84,18,55.71,0.9444,1.0,0.8889,0.9412,0.9444,2.0
+lstm_baseline,3,3-cycle lstm_baseline,56,12,28.34,0.75,0.7143,0.8333,0.7692,0.75,4.0
+lstm_bidirectional,3,3-cycle lstm_bidirectional,56,12,55.54,0.9167,1.0,0.8333,0.9091,0.9167,1.0
+lstm_simpleatt,3,3-cycle lstm_simpleatt,56,12,57.41,0.9167,1.0,0.8333,0.9091,0.9167,1.0
+lstm_multiheadatt,3,3-cycle lstm_multiheadatt,56,12,59.01,0.9167,1.0,0.8333,0.9091,0.9167,1.0
+lstm_baseline,4,4-cycle lstm_baseline,28,6,30.31,1.0,1.0,1.0,1.0,1.0,1.0
+lstm_bidirectional,4,4-cycle lstm_bidirectional,28,6,46.6,0.5,0.5,0.6667,0.5714,0.5,4.0
+lstm_simpleatt,4,4-cycle lstm_simpleatt,28,6,46.6,1.0,1.0,1.0,1.0,1.0,1.0
+lstm_multiheadatt,4,4-cycle lstm_multiheadatt,28,6,48.19,0.8333,1.0,0.6667,0.8,0.8333,3.0
+lstm_baseline,5,5-cycle lstm_baseline,28,6,35.9,0.6667,0.6,1.0,0.75,0.6667,2.0
+lstm_bidirectional,5,5-cycle lstm_bidirectional,28,6,52.18,0.6667,0.6667,0.6667,0.6667,0.6667,2.0
+lstm_simpleatt,5,5-cycle lstm_simpleatt,28,6,53.43,0.5,0.5,0.6667,0.5714,0.5,4.0
+lstm_multiheadatt,5,5-cycle lstm_multiheadatt,28,6,59.65,0.8333,1.0,0.6667,0.8,0.8333,1.0
+lstm_baseline,6,6-cycle lstm_baseline,28,6,39.62,0.5,0.5,0.6667,0.5714,0.5,4.0
+lstm_bidirectional,6,6-cycle lstm_bidirectional,28,6,65.8,0.8333,1.0,0.6667,0.8,0.8333,2.0
+lstm_simpleatt,6,6-cycle lstm_simpleatt,28,6,64.37,0.8333,0.75,1.0,0.8571,0.8333,2.0
+lstm_multiheadatt,6,6-cycle lstm_multiheadatt,28,6,68.32,1.0,1.0,1.0,1.0,1.0,1.0
