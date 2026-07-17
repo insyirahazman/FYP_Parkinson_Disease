@@ -1,5 +1,3 @@
-# README.md
-
 # AUTOMATED DETECTION OF PARKINSON’S DISEASE FROM GAIT PATTERNS USING AI 
 
 Final Year Project — Faculty of Information Science and Technology, Multimedia University
